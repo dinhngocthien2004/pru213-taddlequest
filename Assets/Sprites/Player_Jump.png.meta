@@ -23,9 +23,6 @@ TextureImporter:
   - first:
       213: -4657594874730478759
     second: Player_Jump_6
-  - first:
-      213: -6449261802505695524
-    second: Player_Jump_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 22
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,6 +103,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -274,33 +284,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Player_Jump_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde072e6f8e9f76a0800000000000000
-      internalID: -6449261802505695524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 15de9835c562f254fb2fc5bb548d8175
+    spriteID: e499cdebe51e60641a940aed2ccccd42
     internalID: 0
     vertices: []
     indices: 
@@ -319,7 +307,6 @@ TextureImporter:
       Player_Jump_4: -6684733232908654282
       Player_Jump_5: -186415178674561052
       Player_Jump_6: -4657594874730478759
-      Player_Jump_7: -6449261802505695524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
