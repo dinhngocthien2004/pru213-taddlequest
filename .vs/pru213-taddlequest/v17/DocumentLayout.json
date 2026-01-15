@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Unity\\pru213-taddlequest\\",
+  "WorkspaceRootPath": "D:\\pru213-taddlequest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|c:\\unity\\pru213-taddlequest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|d:\\pru213-taddlequest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T02:48:36.021Z",
               "EditorCaption": ""
