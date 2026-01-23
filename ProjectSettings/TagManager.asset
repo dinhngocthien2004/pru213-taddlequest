@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Coin
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -56,6 +57,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 3084485655
+    locked: 0
+  - name: Item
+    uniqueID: 2365304911
     locked: 0
   m_RenderingLayers:
   - Default

@@ -15,6 +15,10 @@ public class PlayerCollision : MonoBehaviour
             gameManager.Addscore(1);
             //Debug.Log("Hit Coin");
         }
+        else if (collision.CompareTag("Trap"))
+        {
+            Debug.Log("UI dau qua di");
+        }
     }
 
 }
