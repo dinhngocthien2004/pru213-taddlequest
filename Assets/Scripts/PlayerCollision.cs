@@ -17,7 +17,7 @@ public class PlayerCollision : MonoBehaviour
         }
         else if (collision.CompareTag("Trap"))
         {
-            Debug.Log("UI dau qua di");
+            gameManager.GameOver();
         }
     }
 
