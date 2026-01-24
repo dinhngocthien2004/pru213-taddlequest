@@ -23,6 +23,10 @@ public class PlayerCollision : MonoBehaviour
         {
             gameManager.GameOver();
         }
+        else if (collision.CompareTag("Key"))
+        {
+            Debug.Log("Win");
+        }
     }
 
 }
