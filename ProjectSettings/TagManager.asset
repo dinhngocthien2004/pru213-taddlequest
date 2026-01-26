@@ -8,6 +8,7 @@ TagManager:
   - Trap
   - Enemy
   - Key
+  - KillZone
   layers:
   - Default
   - TransparentFX
