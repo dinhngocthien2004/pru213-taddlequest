@@ -3,7 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
-    [SerializeField] private float distance = 5f;
+    [SerializeField] private float distance = 4f;
     private Vector3 startPos;
     private bool movingRight = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created

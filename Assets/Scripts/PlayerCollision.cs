@@ -27,6 +27,11 @@ public class PlayerCollision : MonoBehaviour
         {
             Debug.Log("Win");
         }
+        else if (collision.CompareTag("KillZone"))
+        {
+            gameManager.GameOver();
+        }
+
     }
 
 }
