@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -674,7 +674,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity\pru213-taddlequest
   m_LockTracker:
@@ -693,9 +693,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 51750
+    - m_Data: 51630
     m_LastClickedID:
-      m_Data: 51750
+      m_Data: 51630
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 51630
@@ -761,8 +761,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50644
-    m_LastClickedInstanceID: 50644
+    - m_Data: 50876
+    m_LastClickedInstanceID: 50876
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 75544
@@ -841,12 +841,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50644
+      - m_Data: 50876
       m_LastClickedID:
-        m_Data: 50644
+        m_Data: 50876
       m_ExpandedIDs:
       - m_Data: -1314
-      - m_Data: 50672
+      - m_Data: 50876
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1383,9 +1383,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 27.001959, y: 12.694018, z: -0.1612559}
+    m_Target: {x: 0.48930207, y: 0.7170945, z: 0.04306911}
     speed: 2
-    m_Value: {x: 27.001959, y: 12.694018, z: -0.1612559}
+    m_Value: {x: 0.41563767, y: 0.7328797, z: 0.041043334}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1421,9 +1421,9 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1435,9 +1435,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 24.731646
+    m_Target: 4.2991357
     speed: 2
-    m_Value: 24.731646
+    m_Value: 4.501713
   m_Ortho:
     m_Target: 1
     speed: 2
