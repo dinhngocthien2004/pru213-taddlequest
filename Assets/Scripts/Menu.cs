@@ -4,10 +4,10 @@ public class Menu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game"); // vào game
     }
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit();  
     }
 }
