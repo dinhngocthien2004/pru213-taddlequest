@@ -4,7 +4,9 @@ public class Menu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Game"); // vào game
+        SceneManager.LoadScene("Game");
+        // vào game
+        SceneManager.LoadScene("Game");
     }
     public void QuitGame()
     {
