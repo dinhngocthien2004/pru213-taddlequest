@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
@@ -42,4 +42,30 @@ public class Enemy : MonoBehaviour
         scaler.x *= -1;
         transform.localScale = scaler;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Player"))
+            return;
+
+        foreach (ContactPoint2D contact in collision.contacts)
+        {
+            // Player đạp từ TRÊN xuống
+            if (contact.normal.y < -0.5f)
+            {
+                // Bật Player lên
+                Rigidbody2D playerRb =
+                    collision.gameObject.GetComponent<Rigidbody2D>();
+
+                playerRb.linearVelocity =
+                    new Vector2(playerRb.linearVelocity.x, 8f);
+
+                // Enemy chết
+                Destroy(gameObject);
+                return;
+            }
+        }
+        // Không phải đạp đầu → Player chết
+        GameManager.Instance.LoseLife();
+    }
+
 }
