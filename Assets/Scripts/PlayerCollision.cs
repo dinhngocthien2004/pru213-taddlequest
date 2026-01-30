@@ -3,35 +3,30 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     private GameManager gameManager;
+
     private void Awake()
     {
-        gameManager = FindAnyObjectByType<GameManager>();
+        gameManager = GameManager.Instance;
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Coin"))
         {
-            Destroy(collision.gameObject); 
+            Destroy(collision.gameObject);
             gameManager.Addscore(1);
-            //Debug.Log("Hit Coin");
         }
-        else if (collision.CompareTag("Trap"))
+        else if (
+    collision.CompareTag("Trap") ||
+    collision.CompareTag("KillZone")
+)
         {
-            gameManager.GameOver();
+            gameManager.LoseLife();
         }
-        else if (collision.CompareTag("Enemy"))
-        {
-            gameManager.GameOver();
-        }
+
         else if (collision.CompareTag("Key"))
         {
             Debug.Log("Win");
         }
-        else if (collision.CompareTag("KillZone"))
-        {
-            gameManager.GameOver();
-        }
-
     }
-
 }
