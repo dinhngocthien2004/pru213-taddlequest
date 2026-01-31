@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -759,12 +759,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 52380
+    - m_Data: 52336
     m_LastClickedID:
-      m_Data: 52380
+      m_Data: 52336
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52278
+    - m_Data: 52234
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -799,7 +799,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52278
+    - m_Data: 52234
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -827,9 +827,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50744
-    m_LastClickedInstanceID: 50744
-    m_HadKeyboardFocusLastEvent: 1
+    - m_Data: 51002
+    m_LastClickedInstanceID: 51002
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 75544
     - m_Data: 75584
@@ -911,13 +911,13 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50744
+      - m_Data: 51002
       m_LastClickedID:
-        m_Data: 50744
+        m_Data: 51002
       m_ExpandedIDs:
       - m_Data: -1314
-      - m_Data: 50780
-      - m_Data: 51330
+      - m_Data: 50776
+      - m_Data: 51156
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1454,9 +1454,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 21.55461, y: 3.2313602, z: -0.019087894}
+    m_Target: {x: 4.933821, y: 0.89838064, z: 0.16354203}
     speed: 2
-    m_Value: {x: 21.941938, y: 2.9707613, z: -0.03079696}
+    m_Value: {x: 4.933821, y: 0.89838064, z: 0.16354203}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -1506,9 +1506,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 24.849302
+    m_Target: 6.5863175
     speed: 2
-    m_Value: 26.020212
+    m_Value: 6.5863175
   m_Ortho:
     m_Target: 1
     speed: 2
