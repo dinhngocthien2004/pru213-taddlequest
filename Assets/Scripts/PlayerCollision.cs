@@ -3,10 +3,11 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     private GameManager gameManager;
-
+    private AudioManager audioManager;
     private void Awake()
     {
-        gameManager = GameManager.Instance;
+        gameManager = FindAnyObjectByType<GameManager>();
+        audioManager = FindAnyObjectByType<AudioManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,6 +15,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.CompareTag("Coin"))
         {
             Destroy(collision.gameObject);
+            audioManager.PlayCoinSound();
             gameManager.Addscore(1);
         }
         else if (
