@@ -16,8 +16,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
     [SerializeField] private GameObject gameOverUi;
+    [SerializeField] private GameObject gameWinUi;
 
     private bool isGameOver = false;
+    private bool isGameWin = false;
 
     private void Awake()
     {
@@ -35,18 +37,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // lives = maxLives;
-        // Debug.Log("Lives = " + lives);
         UpdateScore();
         gameOverUi.SetActive(false);
     }
 
     public void Addscore(int points)
     {
-        if (isGameOver) return;
-
-        score += points;
-        UpdateScore();
+        if (!isGameOver && !isGameWin)
+        {
+            score += points;
+            UpdateScore();
+        }     
     }
 
     public void LoseLife()
@@ -80,20 +81,35 @@ public class GameManager : MonoBehaviour
         gameOverUi.SetActive(true);
     }
 
+    public void GameWin()
+    {
+        isGameWin = true;
+        Time.timeScale = 0;
+        gameWinUi.SetActive(true);
+    }
+
     public void RestartGame()
     {
-       // isGameOver = false;
-       // score = 0;
-       // lives = maxLives;
-
-        // UpdateScore();
-
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Game");
+    }
+
+    public void GotoMenu()
+    {
+        SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
 
     public bool IsGameOver()
     {
         return isGameOver;
+    }
+
+    public bool IsGameWin()
+    {
+        return isGameWin;
     }
 }
