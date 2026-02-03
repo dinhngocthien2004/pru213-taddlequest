@@ -1,9 +1,12 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
     private GameManager gameManager;
     private AudioManager audioManager;
+    private bool isInvincible = false;
+    [SerializeField] private float invincibleTime = 0.5f;
+
     private void Awake()
     {
         gameManager = FindAnyObjectByType<GameManager>();
@@ -18,12 +21,17 @@ public class PlayerCollision : MonoBehaviour
             audioManager.PlayCoinSound();
             gameManager.Addscore(1);
         }
-        else if (
-    collision.CompareTag("Trap") ||
-    collision.CompareTag("KillZone")
-)
+        else if (collision.CompareTag("Trap"))
         {
+            if (isInvincible) return;
+
             gameManager.LoseLife();
+            StartCoroutine(InvincibleCoroutine());
+        }
+
+        else if (collision.CompareTag("KillZone"))
+        {
+            gameManager.LoseAllLives(); // chết ngay
         }
 
         else if (collision.CompareTag("Key"))
@@ -32,4 +40,19 @@ public class PlayerCollision : MonoBehaviour
             gameManager.GameWin();
         }
     }
+    private System.Collections.IEnumerator InvincibleCoroutine()
+    {
+        isInvincible = true;
+        yield return new WaitForSeconds(invincibleTime);
+        isInvincible = false;
+    }
+    public void TakeDamage()
+    {
+        if (isInvincible) return;
+
+        gameManager.LoseLife();
+        StartCoroutine(InvincibleCoroutine());
+    }
+
+
 }
