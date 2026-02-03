@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 356.80005
     height: 504
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 13}
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\pru213-taddlequest
   m_LockTracker:
@@ -744,12 +744,14 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
     m_SelectedIDs:
-    - m_Data: 52478
+    - m_Data: 52480
     m_LastClickedID:
-      m_Data: 52478
+      m_Data: 52480
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 52378
+    - m_Data: 52488
+    - m_Data: 52774
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -809,9 +811,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 52506
+    m_LastClickedInstanceID: 52506
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 75544
     - m_Data: 75584
@@ -825,6 +828,8 @@ MonoBehaviour:
     - m_Data: 0
     - m_Data: 51696
     - m_Data: 60138
+    - m_Data: 50094
+    - m_Data: 52812
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -895,11 +900,18 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 52506
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -9084
+      - m_Data: -8256
+      - m_Data: -4020
       - m_Data: -1314
+      - m_Data: 52548
+      - m_Data: 52586
+      - m_Data: 53316
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1143,7 +1155,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 1
       containerId: overlay-container--right
-      displayed: 1
+      displayed: 0
       id: Scene View/Tilemap Focus
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":24.799999237060548},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1436,9 +1448,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 13.321661, y: 6.5881906, z: 0.00018978119}
+    m_Target: {x: -0.8918282, y: 0.4643353, z: 0.01380799}
     speed: 2
-    m_Value: {x: 13.321661, y: 6.5881906, z: 0.00018978119}
+    m_Value: {x: -1.0428736, y: 0.36749566, z: 0.017249156}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1488,9 +1500,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.352955
+    m_Target: 7.991129
     speed: 2
-    m_Value: 9.352955
+    m_Value: 7.647013
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1595,7 +1607,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
