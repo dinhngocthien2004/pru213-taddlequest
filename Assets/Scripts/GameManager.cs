@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     [Header("Game Stats")]
-    [SerializeField] private int maxLives = 1;
+    [SerializeField] private int maxLives = 3;
     private int lives = 1;
     private int score = 0;
 
@@ -20,6 +20,12 @@ public class GameManager : MonoBehaviour
 
     private bool isGameOver = false;
     private bool isGameWin = false;
+
+    private Vector3 checkpointPosition;
+    private int checkpointScore;
+    private int checkpointLives;
+    private bool hasCheckpoint = false;
+
 
     private void Awake()
     {
@@ -37,8 +43,15 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        lives = maxLives;
+        UpdateLives();
         UpdateScore();
         gameOverUi.SetActive(false);
+    }
+
+    private void UpdateLives()
+    {
+        livesText.text = "Lives: " + lives;
     }
 
     public void Addscore(int points)
@@ -52,20 +65,29 @@ public class GameManager : MonoBehaviour
 
     public void LoseLife()
     {
-        if (isGameOver) return;
+        if (isGameOver || isGameWin) return;
 
         lives--;
+        UpdateLives();
 
         if (lives <= 0)
         {
             GameOver();
         }
-        else
-        {
-            // Chưa hết mạng → chơi lại từ đầu màn
-            Time.timeScale = 1;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        //else
+        // {
+        // Chưa hết mạng → chơi lại từ đầu màn
+        //Time.timeScale = 1;
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void LoseAllLives()
+    {
+        if (isGameOver || isGameWin) return;
+
+        lives = 0;
+        UpdateLives();
+        GameOver();
     }
 
     private void UpdateScore()
@@ -73,10 +95,41 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + score;
     }
 
+    public void SaveCheckpoint(Vector3 position)
+    {
+        checkpointPosition = position;
+        checkpointScore = score;
+        checkpointLives = lives;
+        hasCheckpoint = true;
+    }
+
+    public void ContinueFromCheckpoint()
+    {
+        if (!hasCheckpoint)
+        {
+            RestartGame();
+            return;
+        }
+
+        isGameOver = false;
+        Time.timeScale = 1;
+        gameOverUi.SetActive(false);
+
+        lives = checkpointLives;
+        score = checkpointScore;
+
+        UpdateLives();
+        UpdateScore();
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player.transform.position = checkpointPosition;
+    }
+
+
     public void GameOver()
     {
         isGameOver = true;
-        score = 0;
+        //score = 0;
         Time.timeScale = 0;
         gameOverUi.SetActive(true);
     }
@@ -91,8 +144,11 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         isGameOver = false;
+        isGameWin = false;
         score = 0;
+        lives = maxLives;
         UpdateScore();
+        UpdateLives();
         Time.timeScale = 1;
         SceneManager.LoadScene("Game");
     }

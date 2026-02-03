@@ -65,7 +65,13 @@ public class Enemy : MonoBehaviour
             }
         }
         // Không phải đạp đầu → Player chết
-        GameManager.Instance.LoseLife();
+        PlayerCollision playerCollision = collision.gameObject.GetComponent<PlayerCollision>();
+
+        if (playerCollision != null)
+        {
+            playerCollision.TakeDamage();
+        }
+
     }
 
 }

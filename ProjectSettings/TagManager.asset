@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Key
   - KillZone
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -66,6 +67,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 3084485655
+    locked: 0
+  - name: CheckPoint
+    uniqueID: 44336751
     locked: 0
   m_RenderingLayers:
   - Default
