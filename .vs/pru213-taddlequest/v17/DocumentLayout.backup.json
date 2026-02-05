@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Unity\\pru213-taddlequest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|c:\\unity\\pru213-taddlequest\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameGuide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameGuide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|c:\\unity\\pru213-taddlequest\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameGuide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameGuide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "CheckPoint.cs",
+              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\CheckPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckPoint.cs",
+              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\CheckPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CheckPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:42:19.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameGuide.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameGuide.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameGuide.cs",
@@ -57,58 +74,61 @@
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Menu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Menu.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Menu.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T04:01:32.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAqwEgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T02:00:04.955Z"
+              "WhenOpened": "2026-01-26T02:00:04.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerCollision.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCollision.cs",
               "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerCollision.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:27:49.188Z"
+              "WhenOpened": "2026-01-20T14:27:49.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAcwHkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAJ0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:21:40.143Z"
+              "WhenOpened": "2026-01-20T14:21:40.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwDUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T02:48:36.021Z"
             }

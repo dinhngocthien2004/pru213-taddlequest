@@ -10,6 +10,7 @@ TagManager:
   - Key
   - KillZone
   - CheckPoint
+  - KeyMap1
   layers:
   - Default
   - TransparentFX
