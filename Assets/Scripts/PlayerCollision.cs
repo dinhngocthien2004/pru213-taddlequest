@@ -33,6 +33,10 @@ public class PlayerCollision : MonoBehaviour
         {
             gameManager.LoseAllLives(); // chết ngay
         }
+        else if (collision.CompareTag("Enemy"))
+        {
+            gameManager.GameOver(); // chết ngay
+        }
 
         else if (collision.CompareTag("Key"))
         {
