@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 388}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 118
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 119
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 49
+  controlID: 120
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -767,7 +767,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -777,21 +777,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 57
   m_LastProjectPath: D:\pru213-taddlequest
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
+    scrollPos: {x: 0, y: 106}
     m_SelectedIDs:
-    - m_Data: 52558
+    - m_Data: 52598
     m_LastClickedID:
-      m_Data: 52558
+      m_Data: 52598
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52448
+    - m_Data: 52488
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -824,7 +824,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52448
+    - m_Data: 52488
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -851,8 +851,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: -1880
+    m_LastClickedInstanceID: -1880
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 75544
@@ -875,6 +876,7 @@ MonoBehaviour:
     - m_Data: 52544
     - m_Data: 52622
     - m_Data: 51846
+    - m_Data: 52692
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -945,11 +947,16 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: -1880
       m_LastClickedID:
-        m_Data: 0
+        m_Data: -1880
       m_ExpandedIDs:
-      - m_Data: -1322
+      - m_Data: -15502
+      - m_Data: -13990
+      - m_Data: -1314
+      - m_Data: 50850
+      - m_Data: 51280
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1486,9 +1493,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.81279, y: 0.6348148, z: -0.043102276}
+    m_Target: {x: 6.321778, y: 0.661904, z: -0.04056924}
     speed: 2
-    m_Value: {x: 5.81279, y: 0.6348148, z: -0.043102276}
+    m_Value: {x: 6.321778, y: 0.661904, z: -0.04056924}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1538,9 +1545,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.3970103
+    m_Target: 5.1437078
     speed: 2
-    m_Value: 5.3970103
+    m_Value: 5.1437078
   m_Ortho:
     m_Target: 1
     speed: 2
