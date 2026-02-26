@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Stats")]
     [SerializeField] private int maxLives = 3;
     private int lives = 1;
-    private int score = 0;
+    public int score = 0;
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
         UpdateLives();
         UpdateScore();
         gameOverUi.SetActive(false);
+        score = GetScoreData();
     }
 
     private void UpdateLives()
@@ -167,5 +168,15 @@ public class GameManager : MonoBehaviour
     public bool IsGameWin()
     {
         return isGameWin;
+    }
+    void SaveScoreData()
+    {
+        PlayerPrefs.SetInt("Coin", score);
+        Debug.Log("Da luu");
+        PlayerPrefs.Save();
+    }
+    int GetScoreData()
+    {
+        return PlayerPrefs.GetInt("Coin", 0);
     }
 }
