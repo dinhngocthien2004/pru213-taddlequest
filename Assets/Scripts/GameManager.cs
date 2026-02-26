@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Stats")]
     [SerializeField] private int maxLives = 3;
     private int lives = 1;
-    private int score = 0;
+    public int score = 0;
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI scoreText;
