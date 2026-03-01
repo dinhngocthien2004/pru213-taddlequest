@@ -1,20 +1,27 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SavePosition : MonoBehaviour
 {
-
+    private Vector3 startPosition;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        LoadPlayerPosition();
-    }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
 
+            startPosition = transform.position;
+        }
+        else
+        {
+            LoadPlayerPosition();
+        }
+    }
     void OnApplicationQuit()
     {
         SavePlayerPosition();
     }
     public void SavePlayerPosition()
-    { 
+    {
         Vector3 playerPosition = transform.position;
         PlayerPrefs.SetFloat("PlayerX", transform.position.x);
         PlayerPrefs.SetFloat("PlayerY", transform.position.y);
@@ -31,4 +38,22 @@ public class SavePosition : MonoBehaviour
             transform.position = new Vector3(x, y, z);
         }
     }
+    public void Die()
+    {
+        Respawn();
+    }
+
+    void Respawn()
+    {
+        transform.position = startPosition;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            GetComponent<SavePosition>().Die();
+        }
+    }
+
 }
