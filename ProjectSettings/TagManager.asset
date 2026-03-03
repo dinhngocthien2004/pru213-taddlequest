@@ -11,6 +11,7 @@ TagManager:
   - KillZone
   - CheckPoint
   - KeyMap1
+  - KeyMap2
   layers:
   - Default
   - TransparentFX
