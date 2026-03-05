@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
   m_Children: []
   m_Position:
@@ -43,14 +43,14 @@ MonoBehaviour:
     y: 0
     width: 302.40002
     height: 525.6
-  m_MinSize: {x: 357, y: 226}
+  m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 54
+  controlID: 48
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 49
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 50
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -800,12 +800,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 139}
     m_SelectedIDs:
-    - m_Data: 51846
+    - m_Data: 52704
     m_LastClickedID:
-      m_Data: 51846
+      m_Data: 52704
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51738
+    - m_Data: 52576
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -840,7 +840,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51738
+    - m_Data: 52576
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -868,8 +868,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 67898
-    m_LastClickedInstanceID: 67898
+    - m_Data: 55486
+    m_LastClickedInstanceID: 55486
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 75544
@@ -967,37 +967,19 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 67898
+      - m_Data: 55486
       m_LastClickedID:
-        m_Data: 67898
+        m_Data: 55486
       m_ExpandedIDs:
-      - m_Data: -55844
-      - m_Data: -53630
-      - m_Data: -38304
-      - m_Data: -30292
-      - m_Data: -28488
-      - m_Data: -24572
-      - m_Data: -23398
-      - m_Data: -21920
-      - m_Data: -9164
-      - m_Data: -8106
-      - m_Data: -5506
+      - m_Data: -8104
+      - m_Data: -5758
+      - m_Data: -4250
       - m_Data: -1314
-      - m_Data: 50658
-      - m_Data: 50736
-      - m_Data: 50812
-      - m_Data: 50906
       - m_Data: 53928
-      - m_Data: 57092
-      - m_Data: 59196
-      - m_Data: 59968
-      - m_Data: 60026
-      - m_Data: 60740
-      - m_Data: 64622
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1005,10 +987,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 64822
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1530,9 +1512,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 25.549112, y: -17.017288, z: -0.4303462}
+    m_Target: {x: 424.93634, y: 36.835747, z: 150.05756}
     speed: 2
-    m_Value: {x: 26.686954, y: -16.911932, z: -0.4511366}
+    m_Value: {x: 424.93634, y: 36.835747, z: 150.05756}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1582,9 +1564,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 44.12143
+    m_Target: 14.743528
     speed: 2
-    m_Value: 46.20045
+    m_Value: 14.743528
   m_Ortho:
     m_Target: 1
     speed: 2
