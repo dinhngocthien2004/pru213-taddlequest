@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Stats")]
     [SerializeField] private int maxLives = 3;
     private int lives = 1;
-    private int score = 0;
+    public int score = 0;
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -45,8 +45,10 @@ public class GameManager : MonoBehaviour
     {
         lives = maxLives;
         UpdateLives();
-        UpdateScore();
+        UpdateScore();     
+        
         gameOverUi.SetActive(false);
+
     }
 
     private void UpdateLives()
@@ -94,6 +96,7 @@ public class GameManager : MonoBehaviour
     {
         scoreText.text = "Score: " + score;
     }
+
 
     public void SaveCheckpoint(Vector3 position)
     {
@@ -192,4 +195,5 @@ public class GameManager : MonoBehaviour
     {
         return isGameWin;
     }
+    
 }
