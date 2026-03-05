@@ -38,22 +38,22 @@ public class SavePosition : MonoBehaviour
             transform.position = new Vector3(x, y, z);
         }
     }
-    public void Die()
-    {
-        Respawn();
-    }
+    //public void Die()
+    //{
+    //    Respawn();
+    //}
 
-    void Respawn()
-    {
-        transform.position = startPosition;
-    }
+    //void Respawn()
+    //{
+    //    transform.position = startPosition;
+    //}
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Obstacle"))
-        {
-            GetComponent<SavePosition>().Die();
-        }
-    }
+    //void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Obstacle"))
+    //    {
+    //        GetComponent<SavePosition>().Die();
+    //    }
+    //}
 
 }

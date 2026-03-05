@@ -45,8 +45,10 @@ public class GameManager : MonoBehaviour
     {
         lives = maxLives;
         UpdateLives();
-        UpdateScore();
+        UpdateScore();     
+        
         gameOverUi.SetActive(false);
+
     }
 
     private void UpdateLives()
@@ -94,6 +96,7 @@ public class GameManager : MonoBehaviour
     {
         scoreText.text = "Score: " + score;
     }
+
 
     public void SaveCheckpoint(Vector3 position)
     {
@@ -168,4 +171,5 @@ public class GameManager : MonoBehaviour
     {
         return isGameWin;
     }
+    
 }

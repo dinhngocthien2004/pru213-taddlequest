@@ -29,10 +29,11 @@ public class SaveCoin : MonoBehaviour
     }
     int GetScoreData()
     {
-        return PlayerPrefs.GetInt("Coin", 0);
+        return PlayerPrefs.GetInt("Coin");
     }
     void DeleteData()
     {
         PlayerPrefs.DeleteAll();
     }
+
 }
