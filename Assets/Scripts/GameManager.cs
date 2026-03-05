@@ -153,6 +153,30 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void RestartGame2()
+    {
+        isGameOver = false;
+        isGameWin = false;
+        score = 0;
+        lives = maxLives;
+        UpdateScore();
+        UpdateLives();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Game2");
+    }
+
+    public void RestartGame3()
+    {
+        isGameOver = false;
+        isGameWin = false;
+        score = 0;
+        lives = maxLives;
+        UpdateScore();
+        UpdateLives();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Game3");
+    }
+
     public void GotoMenu()
     {
         SceneManager.LoadScene("Menu");
