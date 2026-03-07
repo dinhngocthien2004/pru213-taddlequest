@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Game Stats")]
     [SerializeField] private int maxLives = 3;
-    private int lives = 1;
+    public int lives = 1;
     public int score = 0;
 
     [Header("UI")]
@@ -45,10 +45,9 @@ public class GameManager : MonoBehaviour
     {
         lives = maxLives;
         UpdateLives();
-        UpdateScore();     
-        
+        UpdateScore();             
         gameOverUi.SetActive(false);
-
+        lives = PlayerPrefs.GetInt("Lives", 3);
     }
 
     private void UpdateLives()
@@ -195,5 +194,19 @@ public class GameManager : MonoBehaviour
     {
         return isGameWin;
     }
-    
+
+    public void PlayerDie()
+    {
+        lives--;
+
+        PlayerPrefs.SetInt("Lives", lives);
+        PlayerPrefs.Save();
+
+        Debug.Log("Lives còn: " + lives);
+
+        if (lives <= 0)
+        {
+            Debug.Log("Game Over");
+        }
+    }
 }
