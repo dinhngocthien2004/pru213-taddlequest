@@ -1,5 +1,5 @@
 using UnityEngine;
-
+// example
 public class SaveCoin : MonoBehaviour
 {
     public GameManager gameManager;
