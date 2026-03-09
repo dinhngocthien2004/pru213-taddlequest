@@ -272778,7 +272778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   backgroundAudioSource: {fileID: 1527321129}
   effectAudioSource: {fileID: 1679991885}
-  backGroundClip: {fileID: 8300000, guid: 217eee5165bb10d4a971ed311a0a0187, type: 3}
+  backGroundClip: {fileID: 8300000, guid: 6d14df147ddb7f84389a6a5d8372a1ac, type: 3}
   jumpClip: {fileID: 8300000, guid: c4ca1aa587896ae498c30eef1e256343, type: 3}
   coinClip: {fileID: 8300000, guid: 34350623721438d40816afa35c1ee031, type: 3}
 --- !u!1001 &766755433
@@ -278038,6 +278038,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   maxLives: 3
+  lives: 1
+  score: 0
   scoreText: {fileID: 2043895071}
   livesText: {fileID: 1334658753}
   gameOverUi: {fileID: 1125233561}
