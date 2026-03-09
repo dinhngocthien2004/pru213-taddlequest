@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 244.8
     height: 525.6
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -833,12 +833,12 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 57
-  m_LastProjectPath: C:\Unity\pru213-taddlequest
+  m_LastProjectPath: D:\pru213-taddlequest
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106}
+    scrollPos: {x: 0, y: 98.79999}
     m_SelectedIDs:
     - m_Data: 52364
     m_LastClickedID:
@@ -953,7 +953,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1709,7 +1709,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -1722,8 +1722,13 @@ MonoBehaviour:
       y: 21
       width: 986.8
       height: 478.59998
+<<<<<<< HEAD
     m_Scale: {x: 1.25, y: 1.25}
     m_Translation: {x: 493.4, y: 239.29999}
+=======
+    m_Scale: {x: 1.403375, y: 1.403375}
+    m_Translation: {x: 493.4, y: 251.14}
+>>>>>>> 836e7c83a3196e59e34283937a4b3c6f708c853a
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0

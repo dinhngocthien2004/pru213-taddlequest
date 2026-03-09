@@ -175296,6 +175296,7 @@ GameObject:
   - component: {fileID: 1421135188}
   - component: {fileID: 1421135187}
   - component: {fileID: 1421135189}
+  - component: {fileID: 1421135190}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -175316,6 +175317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   maxLives: 3
+  lives: 1
   score: 0
   scoreText: {fileID: 2043895071}
   livesText: {fileID: 1334658753}
@@ -175348,6 +175350,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18635a6066ebb4e459be9a45cf079d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveCoin
+  gameManager: {fileID: 1421135187}
+--- !u!114 &1421135190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421135186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80edfbe6b82f9441b420c6152169f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaveLives
   gameManager: {fileID: 1421135187}
 --- !u!4 &1439297592 stripped
 Transform:

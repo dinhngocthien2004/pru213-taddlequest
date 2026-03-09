@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\KeyMap1.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scripts\SaveLives.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\SavePosition.cs" />
     <Compile Include="Assets\Scripts\MovingFlatform.cs" />
