@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\SaveLives.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\SavePosition.cs" />
+    <Compile Include="Assets\Scripts\SaveNotificationUI.cs" />
     <Compile Include="Assets\Scripts\MovingFlatform.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
