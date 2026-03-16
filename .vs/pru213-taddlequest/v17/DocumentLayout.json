@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Unity\\pru213-taddlequest\\",
+  "WorkspaceRootPath": "D:\\pru213-taddlequest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|c:\\unity\\pru213-taddlequest\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|d:\\pru213-taddlequest\\assets\\scripts\\savenotificationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savenotificationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|c:\\unity\\pru213-taddlequest\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|D:\\pru213-taddlequest\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|d:\\pru213-taddlequest\\assets\\scripts\\savecoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savecoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|C:\\Unity\\pru213-taddlequest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|D:\\pru213-taddlequest\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|D:\\pru213-taddlequest\\assets\\scripts\\savelives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E742598-425B-E946-9308-15C2E857C03A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savelives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,52 +39,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CheckPoint.cs",
-              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\CheckPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckPoint.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\CheckPoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CheckPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "SaveNotificationUI.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveNotificationUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveNotificationUI.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveNotificationUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveNotificationUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T03:21:55.069Z",
+              "WhenOpened": "2026-03-16T01:27:22.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAUwLAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T03:12:19.737Z",
+              "WhenOpened": "2026-03-13T13:20:57.45Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T02:00:04.955Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Unity\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T02:48:36.021Z"
+              "WhenOpened": "2026-03-13T13:11:39.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaveLives.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveLives.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveLives.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveLives.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveLives.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:41:30.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveCoin.cs",
+              "DocumentMoniker": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveCoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SaveCoin.cs",
+              "ToolTip": "D:\\pru213-taddlequest\\Assets\\Scripts\\SaveCoin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SaveCoin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:41:27.871Z",
+              "EditorCaption": ""
             }
           ]
         }

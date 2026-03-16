@@ -22,10 +22,11 @@ public class GameManager : MonoBehaviour
     private bool isGameWin = false;
 
     private Vector3 checkpointPosition;
-    private int checkpointScore;
-    private int checkpointLives;
+    public int checkpointScore;
+    public int checkpointLives;
     private bool hasCheckpoint = false;
 
+    
 
     private void Awake()
     {
@@ -50,7 +51,7 @@ public class GameManager : MonoBehaviour
         lives = PlayerPrefs.GetInt("Lives", 3);
     }
 
-    private void UpdateLives()
+    public void UpdateLives()
     {
         livesText.text = "Lives: " + lives;
     }
